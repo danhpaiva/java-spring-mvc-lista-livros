@@ -1,10 +1,10 @@
-package controller;
+package daniel.paiva.springmvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import models.Livro;
+import daniel.paiva.springmvc.models.Livro;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,4 +27,3 @@ public class LivroController {
         return "livros";
     }
 }
-
